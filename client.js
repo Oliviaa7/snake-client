@@ -11,6 +11,7 @@ const connect = function () {
 
   conn.on("connect", () => {
     console.log("Welcome to snek");
+    conn.write("Name: OLA");
   });
 
   conn.on("data", (data) => {
