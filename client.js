@@ -6,7 +6,6 @@ const connect = function () {
     port: 50541
   });
 
-  // interpret incoming data as text
   conn.setEncoding("utf8");
 
   conn.on("connect", () => {
@@ -14,17 +13,11 @@ const connect = function () {
     conn.write("Name: OLA");
   });
 
-  // conn.on("connect", () => {
-
-  //   setInterval(() => {
-  //     setTimeout(() => {
-  //       conn.write("Move: up")}, 50);
-  //   }, 150);
-  // })
-
   conn.on("data", (data) => {
     console.log("Data received from the server: ", data);
   })
+
+  return conn;
 };
 
 console.log("Connecting ...");
