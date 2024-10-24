@@ -1,5 +1,3 @@
-const { connect } = require("http2");
-
 let connection;
 
 const setupInput = (conn) => {
