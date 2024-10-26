@@ -8,11 +8,13 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Initializing the game with player initials and a greeting"](./images/Screenshot-1.png)
+This is an example of initializing the game with a player. Initials specified within the code appear above the character. 
+!["Initializing the game with player initials and a greeting showing on snake character"](./images/Screenshot-1.png)
 
-!["After 'eating' a piece of food, press 'g' for GOTCHA to appear"](./images/Screenshot-2.png)
+Special characters have been set with messages. 
+!["After 'eating' a piece of food, press 'g' for GOTCHA to appear above your character"](./images/Screenshot-2.png)
 
-!["Time to go now, press 'b' to say goodbye before committing a snakey death"](./images/Screenshot-3.png)
+!["Time to go now, press 'b' to say goodbye before committing a snakey death via a wall"](./images/Screenshot-3.png)
 
 
 ## Getting Started
