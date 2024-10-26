@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-This is an example of initializing the game with a player. Initials specified within the code appear above the character. 
+This is an example of initializing the game with a player. Initials specified within the code appear above the character with a greeting temporarily. 
 !["Initializing the game with player initials and a greeting showing on snake character"](./images/Screenshot-1.png)
 
 Special characters have been set with messages. 
