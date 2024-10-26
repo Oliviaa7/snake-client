@@ -1,9 +1,9 @@
 const net = require("net");
 const {IP, PORT} = require("./constants");
 
-const connect = function () {
+const connect = function() {
   const conn = net.createConnection({
-    host: IP, 
+    host: IP,
     port: PORT
   });
 
@@ -16,7 +16,7 @@ const connect = function () {
 
   conn.on("data", (data) => {
     console.log("Data received from the server: ", data);
-  })
+  });
 
   return conn;
 };
